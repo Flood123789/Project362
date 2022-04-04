@@ -20,5 +20,14 @@
 </head>
 <body>
     
+
+    <form>
+        <label>Staff Login</label>
+        <br>
+        <label>User Name:  </label> <input type='text' name='User'>
+        <label>Password:  </label> <input type='password' name='password'>
+        <button type='submit' name='submit'>
+
+    </form>
 </body>
 </html>
