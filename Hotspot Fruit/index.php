@@ -24,6 +24,49 @@
     <h2>Hotspot Fruit</h2>
     <main>
         <span>Test Text</span>
+        <table>
+        <tr>
+          <td>Assessment</td>
+          <td>Number of Assessment</td>
+          <td>Max Points per Assessment</td>
+        </tr>
+
+        <tr>
+          <td>Lab Assignment</td>
+          <td><input type="number" id="LabAssignment"></td>
+          <td>25</td>
+        </tr>
+
+        <tr>
+            <td>Quiz</td>
+            <td><input type="number" id="Quiz"></td>
+            <td>10</td>
+          </tr>
+
+          <tr>
+            <td>Exam</td>
+            <td><input type="number" id=Exam></td>
+            <td>100</td>
+          </tr>
+
+          <tr>
+            <td>Project</td>
+            <td><input type="number" id= Proj></td>
+            <td>100</td>
+          </tr>
+
+          <tr>
+            <td>Extra Credit</td>
+            <td><input type="number" id= ExtraCred></td>
+            <td>25</td>
+          </tr>
+
+          <tr>
+            <td>Participation</td>
+            <td><input type="number" id=Part></td>
+            <td>5</td>
+          </tr>
+      </table>
 
     </main>                                                                                                          
 </body>
