@@ -1,0 +1,54 @@
+html{
+    background: linear-gradient(180deg, #000 0%, #000 76%, #393939 100%);
+    background-attachment: fixed;
+}
+
+td, th {
+    border: 1px dashed white;
+    padding: .2em .5em .2em .5em;
+    vertical-align: top;
+    text-align: left;
+}
+
+table {
+    border: 1px solid white;
+    border-collapse: collapse;
+
+}
+
+table.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main{
+    color: white;
+    display: block;
+    width: 750px;
+    margin: 0 auto;
+    padding: 5px;
+    background: rgb(24, 24, 24);
+    border: 2px solid white;
+    border-radius: 7px;
+    overflow: auto;
+    resize: both;
+    filter: drop-shadow(2px 1px 10px #000);
+
+}
+body{
+    text-align: center;
+}
+
+.button
+{
+	background-color: rgb(87, 87, 87);
+	color: white;
+	width: 60px;
+	height: 25px;
+    border-radius: 3px;
+    filter: drop-shadow(2px 1px 10px rgb(56, 56, 56));
+
+}
+form{
+    color: white;
+}
