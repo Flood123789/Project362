@@ -19,14 +19,19 @@
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 <body>
-    
+    <main>
+        <p> We are a small staff that is dedicated to ensuring that all people are equally able to access the freshest produce around.
+            Our staff works Tirelessly to move product from shore to shore in reccord times to guarentee freshness fresh from the farm.
+            Let our staff treat you to the freshest fruits our modern world can provide!
+        </p>
+    </main>
 
     <form>
         <label>Staff Login</label>
         <br>
         <label>User Name:  </label> <input type='text' name='User'>
         <label>Password:  </label> <input type='password' name='password'>
-        <button type='submit' name='submit'>
+        <button type='submit' name='submit' value="Login">
 
     </form>
 </body>

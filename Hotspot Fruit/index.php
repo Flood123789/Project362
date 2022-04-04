@@ -25,7 +25,7 @@
         <a class="active" href="index.php">Home</a>
         <a href="popular.php">Popular picks</a>
         <a href="Cart.php">Cart</a>
-        <a href="#about.php">About</a>
+        <a href="about.php">About</a>
     </div>
 
     <h2>Hotspot Fruit</h2>
