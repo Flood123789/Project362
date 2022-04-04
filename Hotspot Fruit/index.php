@@ -21,6 +21,12 @@
 
 </head>
 <body>
+    <div class="topnav">
+    <a class="active" href="#home">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    </div>
     <h2>Hotspot Fruit</h2>
     <main>
         <span>Test Text</span>
