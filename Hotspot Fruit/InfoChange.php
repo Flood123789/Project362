@@ -17,6 +17,7 @@
 <body>
     <main>
       <?php
+        //prints table 
         $Fulltable = FruitPuller($db);
         Adminlookup($Fulltable);
       ?>

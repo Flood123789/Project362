@@ -28,6 +28,7 @@
     <h2>Hotspot Fruit</h2>
     <main>
       <?php
+      //table printed
         UserLookup($Fulltable);
       ?>
     </main>                                                                                                          

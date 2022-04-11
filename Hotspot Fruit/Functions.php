@@ -3,6 +3,7 @@ function DatabaseLoad(){
     require_once('database.php');
 }
 
+//Pulls full fruit table
 function FruitPuller($db){
     $FillTable = "SELECT * FROM fruits";   
     $Fulltable = $db->query($FillTable);
@@ -10,6 +11,7 @@ function FruitPuller($db){
     return $Fulltable;
 }
 
+//prints user view of fruit table
 function UserLookup($Fulltable){
     echo "<table class='center'>";
             echo "<tr>";
@@ -27,6 +29,8 @@ function UserLookup($Fulltable){
         echo "</table>";
 }
 
+
+//prints admin view of fruit table
 function Adminlookup($Fulltable){
     echo "<table class='center'>";
             echo "<tr>";
