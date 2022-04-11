@@ -44,7 +44,7 @@
     <form action="" method="post">
         <br>
         <br>
-        <label>Fruit ID: </label><input type="text" name="fruitID">
+        <label>Fruit ID: </label><input type="number" name="fruitID">
         <br>
         <label>Fruit Name: </label><input type="text" name="fruitname">
         <br> 
