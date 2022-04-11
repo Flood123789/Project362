@@ -2,9 +2,9 @@
     // Will check Database avalability.
 
     require_once('database.php');
-    /*$FillTable = "SELECT * FROM students";   
+    $FillTable = "SELECT * FROM fruits";   
     $Fulltable = $db->query($FillTable);
-    $id1 = $_POST['IDRange1'];
+    /*$id1 = $_POST['IDRange1'];
     $id2 = $_POST['IDRange2'];*/
 
 ?>
@@ -30,51 +30,22 @@
 
     <h2>Hotspot Fruit</h2>
     <main>
-        <span>Test Text</span>
-        <table>
-        <tr>
-          <td>Assessment</td>
-          <td>Number of Assessment</td>
-          <td>Max Points per Assessment</td>
-        </tr>
-
-        <tr>
-          <td>Lab Assignment</td>
-          <td><input type="number" id="LabAssignment"></td>
-          <td>25</td>
-        </tr>
-
-        <tr>
-            <td>Quiz</td>
-            <td><input type="number" id="Quiz"></td>
-            <td>10</td>
-          </tr>
-
-          <tr>
-            <td>Exam</td>
-            <td><input type="number" id=Exam></td>
-            <td>100</td>
-          </tr>
-
-          <tr>
-            <td>Project</td>
-            <td><input type="number" id= Proj></td>
-            <td>100</td>
-          </tr>
-
-          <tr>
-            <td>Extra Credit</td>
-            <td><input type="number" id= ExtraCred></td>
-            <td>25</td>
-          </tr>
-
-          <tr>
-            <td>Participation</td>
-            <td><input type="number" id=Part></td>
-            <td>5</td>
-          </tr>
-      </table>
-
+      <?php
+        echo "<table class='center'>";
+            echo "<tr>";
+                echo "<th>Fruit</th>";
+                echo "<th>Description</th>";
+                echo "<th>Price</th>";                    
+            echo "</tr>";
+        while($row = $Fulltable->fetch()){
+            echo "<tr>";
+                echo "<td>" . $row['FruitName'] . "</td>";
+                echo "<td>" . $row['FruitDesc'] . "</td>";
+                echo "<td>" . $row['FruitPrice'] . "</td>";
+            echo "</tr>";
+        }
+        echo "</table>";
+      ?>
     </main>                                                                                                          
 </body>
 </html>

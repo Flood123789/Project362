@@ -9,7 +9,7 @@
 
 <!-- the body section -->
 <body>
-    <header><h1>Students Database CRASH!!! </h1></header>
+    <header><h1>HotSpotFruits Database CRASH!!! </h1></header>
 
     <main>
         <h1>Database Error</h1>

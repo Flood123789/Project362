@@ -1,5 +1,5 @@
 <?php
-    $dsn = 'mysql:host=localhost:3306;dbname=students';
+    $dsn = 'mysql:host=localhost:3306;dbname=hotspotfruit';
     $username = 'root';
     $password = '';
 
