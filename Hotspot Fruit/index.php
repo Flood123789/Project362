@@ -1,11 +1,8 @@
 <?php
     // Will check Database avalability.
-
-    require_once('database.php');
-    $FillTable = "SELECT * FROM fruits";   
-    $Fulltable = $db->query($FillTable);
-    /*$id1 = $_POST['IDRange1'];
-    $id2 = $_POST['IDRange2'];*/
+    require_once 'Functions.php';
+    require_once 'database.php';
+    $Fulltable =UserLookLoad($db);
 
 ?>
 
