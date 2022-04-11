@@ -1,9 +1,7 @@
 <?php
     // Will check Database avalability.
-
     require_once('database.php');
-
-
+    require_once('Functions.php');
 ?>
 
 <!DOCTYPE html>
@@ -19,22 +17,8 @@
 <body>
     <main>
       <?php
-        echo "<table class='center'>";
-            echo "<tr>";
-                echo "<th>Fruit</th>";
-                echo "<th>Description</th>";
-                echo "<th>Price</th>";
-                echo "<th>ID</th>";                    
-            echo "</tr>";
-        while($row = $Fulltable->fetch()){
-            echo "<tr>";
-                echo "<td>" . $row['FruitName'] . "</td>";
-                echo "<td>" . $row['FruitDesc'] . "</td>";
-                echo "<td>" . $row['FruitPrice'] . "</td>";
-                echo "<td>" . $row['FruitID'] . "</td>";
-            echo "</tr>";
-        }
-        echo "</table>";
+        $Fulltable = FruitPuller($db);
+        Adminlookup($Fulltable);
       ?>
     </main>
     

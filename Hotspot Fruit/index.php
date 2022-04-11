@@ -2,7 +2,7 @@
     // Will check Database avalability.
     require_once 'Functions.php';
     require_once 'database.php';
-    $Fulltable =UserLookLoad($db);
+    $Fulltable = FruitPuller($db);
 
 ?>
 
@@ -28,20 +28,7 @@
     <h2>Hotspot Fruit</h2>
     <main>
       <?php
-        echo "<table class='center'>";
-            echo "<tr>";
-                echo "<th>Fruit</th>";
-                echo "<th>Description</th>";
-                echo "<th>Price</th>";                    
-            echo "</tr>";
-        while($row = $Fulltable->fetch()){
-            echo "<tr>";
-                echo "<td>" . $row['FruitName'] . "</td>";
-                echo "<td>" . $row['FruitDesc'] . "</td>";
-                echo "<td>" . $row['FruitPrice'] . "</td>";
-            echo "</tr>";
-        }
-        echo "</table>";
+        UserLookup($Fulltable);
       ?>
     </main>                                                                                                          
 </body>
