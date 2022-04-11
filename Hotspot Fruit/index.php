@@ -28,7 +28,7 @@
         <a href="about.php">About</a>
     </div>
 
-    <h2>Hotspot Fruit2</h2>
+    <h2>Hotspot Fruit</h2>
     <main>
       <?php
         echo "<table class='center'>";
